@@ -5,7 +5,7 @@ var bio = {
 	"email" : "gymnastics.level15@gmail.com",
 	"github" : "awesomeanichka101",
 	"welcomeMessage" : "Hi there! Welcome to my interactive resume!",
-	"skills" : ["Awesomeness ", "programming ", "JS ", "and music!"]
+	"skills" : ["Awesomeness", " programming", " JS", " and music!"]
 };
 
 // Formatting bio
