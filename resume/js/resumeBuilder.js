@@ -125,3 +125,5 @@ var education = {
 	  }
 	]
 }
+
+$("#mapDiv").append(googleMap);
