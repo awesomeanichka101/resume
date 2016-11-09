@@ -1,4 +1,4 @@
-// First working with objects
+// Bio object
 var bio = {
 	"name" : "Anna Stein",
 	"role" : "Web Developer",
@@ -42,6 +42,7 @@ if (bio.skills.length > 0) {
 	$("#skills").append(formattedSkill);
 }
 
+// Work object
 var work = {
     "jobs": [
         {
@@ -54,6 +55,7 @@ var work = {
     ]
 }
 
+// Formatting and adding Work with a function
 function displayWork() {
 	for (job in work.jobs) {
 		$("#workExperience").append(HTMLworkStart);
@@ -69,8 +71,10 @@ function displayWork() {
 	}
 }
 
+// Calling function
 displayWork();
 
+// Projects object
 var projects = {
 	"projects" : [
 		{
@@ -85,6 +89,7 @@ var projects = {
 		}
 	]
 };
+// Formatting and adding Projects using a function
 projects.display = function() {
 	for (project in projects.projects) {
 		$('#projects').append(HTMLprojectStart);
@@ -107,9 +112,10 @@ projects.display = function() {
 		//}
 	}
 }
-
+// Calling function
 projects.display();
 
+// Education object
 var education = {
 	"schools": [
 	  {
@@ -126,4 +132,5 @@ var education = {
 	]
 }
 
+// Adding Google Map
 $("#mapDiv").append(googleMap);
