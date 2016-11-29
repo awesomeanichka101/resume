@@ -148,7 +148,7 @@ var education = {
 		{
 			"title": "JavaScript basics",
 			"school": "Udacity",
-			"dates": "September 2016 - Today",
+			"dates": "September 2016 - November 2016",
 			"URL": "https://www.udacity.com/"
 		}
 	]	
@@ -184,7 +184,10 @@ education.display = function() {
 		$(".education-entry:last").append(formattedTitle);
 
 		var formattedSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
-		$(".education-entry:last").append(formattedSchool);
+		//$(".education-entry:last").append(formattedSchool);
+
+		var formattedDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
+		$(".education-entry:last").append(formattedDates);
 
 		var formattedURL = HTMLonlineURL.replace("%data%", education.onlineCourses[course].URL);
 		$(".education-entry:last").append(formattedURL);
