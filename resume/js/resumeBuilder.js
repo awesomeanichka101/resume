@@ -3,27 +3,35 @@ var bio = {
 	"name" : "Anna Stein",
 	"role" : "Web Developer",
 	"email" : "gymnastics.level15@gmail.com",
-	"github" : "awesomeanichka101",
-	"location" : "Bryant, IN",
+    "github" : "awesomeanichka101",
+    "location" : "Bryant, IN",
 	"welcomeMessage" : "Hi there! Welcome to my interactive resume!",
+	"biopic" : "file:///C:/Users/Anna/resume/images/fry.jpg",
 	"skills" : ["Quick learning", "Programming", "JavaScript", "Music"]
 };
 
-// Formatting bio
-var formattedName = HTMLheaderName.replace("%data%", bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-var formattedEmail = HTMLemail.replace("%data%", bio.email);
-var formattedGitHub = HTMLgithub.replace("%data%", bio.github);
-var formattedLocation = HTMLlocation.replace("%data%", bio.location);
-var formattedWelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+bio.display = function() {
+	var formattedName = HTMLheaderName.replace("%data%", bio.name);
+	var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+	var formattedEmail = HTMLemail.replace("%data%", bio.email);
+	var formattedGitHub = HTMLgithub.replace("%data%", bio.github);
+	var formattedLocation = HTMLlocation.replace("%data%", bio.location);
+	var formattedWelcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+	var formattedBiopic = HTMLbioPic.replace("%data%", bio.biopic);
 
-// Adding bio
-$("#header").prepend(formattedRole);
-$("#header").prepend(formattedName);
-$("#header").append(formattedWelcomeMessage);
-$("#topContacts").append(formattedEmail);
-$("#topContacts").append(formattedGitHub);
-$("#topContacts").append(formattedLocation);
+	$("#header").prepend(formattedRole);
+	$("#header").prepend(formattedName);
+	$("#header").append(formattedWelcomeMessage);
+	$("#header").append(formattedBiopic);
+	$("#topContacts").append(formattedEmail);
+	$("#topContacts").append(formattedGitHub);
+	$("#topContacts").append(formattedLocation);
+	$("#footerContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedGitHub);
+	$("#footerContacts").append(formattedLocation);
+}
+
+bio.display();
 
 // Adding if statement to make sure bio has skills
 if (bio.skills.length > 0) {
