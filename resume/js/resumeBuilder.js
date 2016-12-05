@@ -88,13 +88,15 @@ var projects = {
 		{
 			"title" : "Future Limberlost Layers Website",
 			"dates" : "December 2016 - February 2017",
-			"description" : "This is the website for my dad's egg business, Limberlost Layers. Started from a WordPress theme and revised for accuracy.",
+			"description" : "This is the website for my dad's egg business, \
+			Limberlost Layers. Started from a WordPress theme and revised for accuracy.",
 			"images" : ["file:///C:/Users/Anna/resume/images/197x148.gif"]
 		},
 		{
 			"title" : "Another Future Project",
 			"dates" : "March 2017 - July 2017",
-			"description" : "Whatever future project I do goes here. I have no idea what it will be right now though.",
+			"description" : "Whatever future project I do goes here.\
+			 I have no idea what it will be right now though.",
 			"images" : ["file:///C:/Users/Anna/resume/images/197x148.gif"]
 		}
 	]
