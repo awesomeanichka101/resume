@@ -152,6 +152,12 @@ var education = {
 			"school": "Udacity",
 			"dates": "September 2016 - November 2016",
 			"URL": "https://www.udacity.com/"
+		},
+		{
+			"title": "Learn SQL",
+			"school": "Codecademy",
+			"dates": "December 2016 - Present",
+			"URL": "https://www.codecademy.com/"
 		}
 	]	
 };
