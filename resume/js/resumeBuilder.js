@@ -136,7 +136,7 @@ var education = {
 			"degree": " ",
 			"dates": "September 2004 - May 2017",
 			"location": "Bryant, IN",
-			"major": " "
+			"major": "N/A"
 		}
 	],
 
@@ -156,7 +156,25 @@ var education = {
 		{
 			"title": "Learn SQL",
 			"school": "Codecademy",
-			"dates": "December 2016 - Present",
+			"dates": "December 14th - December 28th, 2016",
+			"URL": "https://www.codecademy.com/"
+		},
+		{
+			"title": "SQL: Table Transformation",
+			"school": "Codecademy",
+			"dates": "December 2016 - January 2017",
+			"URL" : "https://www.codecademy.com/"
+		},
+		{
+			"title": "SQL: Analyzing Business Metrics",
+			"school": "Codecademy",
+			"dates": "January 2017 - Present",
+			"URL": "https://www.codecademy.com/"
+		},
+		{
+			"title": "HTML & CSS",
+			"school": "Codecademy",
+			"dates": "January 2017 - Present",
 			"URL": "https://www.codecademy.com/"
 		}
 	]	
