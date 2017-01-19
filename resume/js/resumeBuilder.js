@@ -58,7 +58,7 @@ var work = {
             "title" : "Website Tester",
             "dates" : "July 2016 - present",
             "location" : "Portland, IN",
-            "description" : "The people at MyFarms are passionate about maximizing the global food supply. We build practical technology that helps input suppliers, farmers, and grain buyers work together more efficiently.  Today, MyFarms is used by thousands of farmers and dozens of companies on millions of acres from the Midwest to South Africa to maximize farming efficiency."
+            "description" : "Thoroughly test website for bugs and report to other developers. May also include assisting in fixing bugs and teaching clients how to use the website."
         }
     ]
 }
@@ -174,7 +174,7 @@ var education = {
 		{
 			"title": "HTML & CSS",
 			"school": "Codecademy",
-			"dates": "January 2017 - Present",
+			"dates": "January 4th - January 19th, 2017",
 			"URL": "https://www.codecademy.com/"
 		}
 	]	
