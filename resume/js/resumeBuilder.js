@@ -168,13 +168,13 @@ var education = {
 		{
 			"title": "SQL: Analyzing Business Metrics",
 			"school": "Codecademy",
-			"dates": "January 2017 - Present",
+			"dates": "January 3rd - January 19th 2017",
 			"URL": "https://www.codecademy.com/"
 		},
 		{
 			"title": "HTML & CSS",
 			"school": "Codecademy",
-			"dates": "January 4th - January 19th, 2017",
+			"dates": "January 9th - January 20th, 2017",
 			"URL": "https://www.codecademy.com/"
 		}
 	]	
