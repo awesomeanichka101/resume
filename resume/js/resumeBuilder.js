@@ -142,37 +142,37 @@ var education = {
 
 	"onlineCourses": [
 		{
-			"title": "How to use Git and GitHub",
+			"title": "How to use Git and GitHub - Udacity",
 			"school": "Udacity",
 			"dates": "August 2016 - September 2016",
 			"URL": "https://www.udacity.com/"
 		},
 		{
-			"title": "JavaScript basics",
+			"title": "JavaScript basics - Udacity",
 			"school": "Udacity",
 			"dates": "September 2016 - November 2016",
 			"URL": "https://www.udacity.com/"
 		},
 		{
-			"title": "Learn SQL",
+			"title": "Learn SQL - Codecademy",
 			"school": "Codecademy",
 			"dates": "December 14th - December 28th, 2016",
 			"URL": "https://www.codecademy.com/"
 		},
 		{
-			"title": "SQL: Table Transformation",
+			"title": "SQL: Table Transformation - Codecademy",
 			"school": "Codecademy",
 			"dates": "December 2016 - January 2017",
 			"URL" : "https://www.codecademy.com/"
 		},
 		{
-			"title": "SQL: Analyzing Business Metrics",
+			"title": "SQL: Analyzing Business Metrics - Codecademy",
 			"school": "Codecademy",
 			"dates": "January 3rd - January 19th 2017",
 			"URL": "https://www.codecademy.com/"
 		},
 		{
-			"title": "HTML & CSS",
+			"title": "HTML & CSS - Codecademy",
 			"school": "Codecademy",
 			"dates": "January 9th - January 20th, 2017",
 			"URL": "https://www.codecademy.com/"
