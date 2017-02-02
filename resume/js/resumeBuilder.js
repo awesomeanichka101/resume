@@ -176,6 +176,12 @@ var education = {
 			"school": "Codecademy",
 			"dates": "January 9th - January 20th, 2017",
 			"URL": "https://www.codecademy.com/"
+		},
+		{
+			"title": "PHP - Codecademy",
+			"school": "Codecademy",
+			"dates": "January 2017 - Present",
+			"URL": "https://www.codecademy.com/"
 		}
 	]	
 };
