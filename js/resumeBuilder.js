@@ -6,7 +6,7 @@ var bio = {
     "github" : "awesomeanichka101",
     "location" : "Bryant, IN",
 	"welcomeMessage" : "Hi there! Welcome to my interactive resume!",
-	"biopic" : "file:///C:/Users/Anna/resume/images/fry.jpg",
+	"biopic" : "file:/home/anichka101/Documents/resume/images/fry.jpg",
 	"skills" : ["HTML", "CSS", "JavaScript", "SQL", "PHP"]
 };
 
@@ -90,14 +90,14 @@ var projects = {
 			"dates" : "December 2016 - February 2017",
 			"description" : "This is the website for my dad's egg business, \
 			Limberlost Layers. Started from a WordPress theme and revised for accuracy.",
-			"images" : ["file:///C:/Users/Anna/resume/images/197x148.gif"]
+			"images" : ["file:/home/anichka101/Documents/resume/images/197x148.gif"]
 		},
 		{
 			"title" : "Another Future Project",
 			"dates" : "March 2017 - July 2017",
 			"description" : "Whatever future project I do goes here.\
 			 I have no idea what it will be right now though.",
-			"images" : ["file:///C:/Users/Anna/resume/images/197x148.gif"]
+			"images" : ["file:/home/anichka101/Documents/resume/images/197x148.gif"]
 		}
 	]
 };
@@ -180,7 +180,7 @@ var education = {
 		{
 			"title": "PHP - Codecademy",
 			"school": "Codecademy",
-			"dates": "January 2017 - Present",
+			"dates": "January 2017 - March 2017",
 			"URL": "https://www.codecademy.com/"
 		}
 	]	
