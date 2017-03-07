@@ -180,8 +180,14 @@ var education = {
 		{
 			"title": "PHP - Codecademy",
 			"school": "Codecademy",
-			"dates": "January 2017 - March 2017",
+			"dates": "January - March 2017",
 			"URL": "https://www.codecademy.com/"
+		},
+		{
+			"title": "The PHP Practitioner",
+			"school": "Laracasts",
+			"dates": "March 2017 - Present",
+			"URL": "https://laracasts.com/series/php-for-beginners"
 		}
 	]	
 };
