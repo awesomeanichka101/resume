@@ -7,7 +7,7 @@ var bio = {
     "location" : "Bryant, IN",
 	"welcomeMessage" : "Hi there! Welcome to my interactive resume!",
 	"biopic" : "file:/home/anichka101/Documents/resume/images/fry.jpg",
-	"skills" : ["HTML", "CSS", "JavaScript", "SQL", "PHP"]
+	"skills" : ["PHP", "HTML", "CSS", "JavaScript", "SQL"]
 };
 
 bio.display = function() {
@@ -33,21 +33,13 @@ bio.display = function() {
 
 bio.display();
 
-// Adding if statement to make sure bio has skills
+// Adding if statement to make sure bio has skills and a for-in loop to append them to the page
 if (bio.skills.length > 0) {
 	$("#header").append(HTMLskillsStart);
-
-	var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-	$("#skills").append(formattedSkill);
-
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-	$("#skills").append(formattedSkill);
-
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-	$("#skills").append(formattedSkill);
-
-	formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-	$("#skills").append(formattedSkill);
+	for (skill in bio.skills) {
+		var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+		$("#skills").append(formattedSkill);
+	}
 }
 
 // Work object
