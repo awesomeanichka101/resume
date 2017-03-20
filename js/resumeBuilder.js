@@ -7,7 +7,7 @@ var bio = {
     "location" : "Bryant, IN",
 	"welcomeMessage" : "Hi there! Welcome to my interactive resume!",
 	"biopic" : "file:/home/anichka101/Documents/resume/images/fry.jpg",
-	"skills" : ["PHP", "HTML", "CSS", "JavaScript", "SQL"]
+	"skills" : ["PHP", "JavaScript", "HTML", "CSS", "SQL"]
 };
 
 bio.display = function() {
@@ -178,8 +178,14 @@ var education = {
 		{
 			"title": "The PHP Practitioner",
 			"school": "Laracasts",
-			"dates": "March 2017 - Present",
+			"dates": "March 7 - 20, 2017",
 			"URL": "https://laracasts.com/series/php-for-beginners"
+		},
+		{
+			"title": "Object-Oriented Bootcamp",
+			"school": "Laracasts",
+			"dates": "March 20 - Present",
+			"URL": "https://laracasts.com/series/object-oriented-bootcamp-in-php"
 		}
 	]	
 };
