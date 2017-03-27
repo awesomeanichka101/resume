@@ -184,7 +184,7 @@ var education = {
 		{
 			"title": "Object-Oriented Bootcamp",
 			"school": "Laracasts",
-			"dates": "March 20 - Present",
+			"dates": "March 20 - March 24",
 			"URL": "https://laracasts.com/series/object-oriented-bootcamp-in-php"
 		}
 	]	
