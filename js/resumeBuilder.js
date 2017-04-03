@@ -186,6 +186,12 @@ var education = {
 			"school": "Laracasts",
 			"dates": "March 20 - March 24",
 			"URL": "https://laracasts.com/series/object-oriented-bootcamp-in-php"
+		},
+		{
+			"title": "Laravel 5.4 From Scratch",
+			"school": "Laracasts",
+			"dates": "April 3 - Present",
+			"URL": "https://laracasts.com/series/laravel-from-scratch-2017"
 		}
 	]	
 };
