@@ -190,7 +190,7 @@ var education = {
 		{
 			"title": "Laravel 5.4 From Scratch",
 			"school": "Laracasts",
-			"dates": "April 3 - Present",
+			"dates": "April 3 - April 20",
 			"URL": "https://laracasts.com/series/laravel-from-scratch-2017"
 		}
 	]	
